@@ -4,7 +4,6 @@ import 'package:test_3d/screens/characters_selection_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // 🕒 تأخير بسيط لتجنب Crash من WebView أثناء الإقلاع
   await Future.delayed(const Duration(milliseconds: 100));
 
   runApp(const MyApp());
